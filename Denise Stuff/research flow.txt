@@ -3,37 +3,38 @@ RESEARCH PAPER:
 
 3/2/25 - Mastering stuff
 INTRODUCTION: 
-- Background of the study 
--Important RRLS 
--Research questions 
--Hypothesis 
--Significance of the study 
--Goals 
--Scope & Delimitations
+	- Background of the study 
+	-Important RRLS 
+	-Research questions 
+	-Hypothesis 
+	-Significance of the study 
+	-Goals 
+	-Scope & Delimitations
 
 METHODOLOGY: with subtitle
--research design
--preparation
--collection of materials
--names of materials
--data analysis
+	-research design
+	-preparation
+	-collection of materials
+	-names of materials
+	-data analysis
 
 FORMAT:
-1 inch all sides
-12 size
-Times New Roman
-Double space
-Justify
-A4
+	1 inch all sides
+	12 size
+	Times New Roman
+	Double space
+	Justify
+	A4
 
 DEADLINE: 
-Monday, December 9 2024. 12PM
+	Monday, December 9 2024. 12PM
 
-
-1650 - pelleting machine
-20 - 1 kilo
-10 - 4 kilos
-50 - 1 kilo
+PRICES
+	1650 - pelleting machine
+	20 - 1 kilo
+	10 - 4 kilos
+	50 - 1 kilo
+	
 Procedure
 	Collection
 	Mixing
