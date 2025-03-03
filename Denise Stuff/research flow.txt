@@ -49,12 +49,18 @@ Procedure
 3/3 - Time to work on more shit.
 
 So for today, the tasks are
-	AstroCalendar
-	Pathways
+	// AstroCalendar
+	// Willans formula
+	My paper
 	Denise Paper
+		ObsIn Meeting 1
+		Telescope Assembly Guide
+		Stargazing Basics Guide
+		Telescope Assembly Poster
+	Pathways
+		KKM Survey
 	Tambay Tracker
 	Niki Data
-	My paper
 	Exams
 		March 7 - KAS
 		March 18 - P157
