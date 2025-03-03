@@ -4,19 +4,19 @@ RESEARCH PAPER:
 3/2/25 - Mastering stuff
 INTRODUCTION: 
 	- Background of the study 
-	-Important RRLS 
-	-Research questions 
-	-Hypothesis 
-	-Significance of the study 
-	-Goals 
-	-Scope & Delimitations
+	- Important RRLS 
+	- Research questions 
+	- Hypothesis 
+	- Significance of the study 
+	- Goals 
+	- Scope & Delimitations
 
 METHODOLOGY: with subtitle
-	-research design
-	-preparation
-	-collection of materials
-	-names of materials
-	-data analysis
+	- research design
+	- preparation
+	- collection of materiasls
+	- names of materials
+	- data analysis
 
 FORMAT:
 	1 inch all sides
@@ -34,8 +34,8 @@ PRICES
 	20 - 1 kilo
 	10 - 4 kilos
 	50 - 1 kilo
-	
-Procedure
+
+PROCEDURE
 	Collection
 	Mixing
 		Coco and Mori
@@ -50,19 +50,111 @@ Procedure
 3/3 - Time to work on more shit.
 
 So for today, the tasks are
-	// AstroCalendar
-	// Willans formula
-	My paper
-	Denise Paper
+	- AstroCalendar
+	- Willans formula 
+	< My paper >
+		Results and Discussion
+		Methodology Revise
+		Methodology Figure
+	< Denise Paper > 
+		Revise the entire yellow texts
+		Research Poster	
+		Wait for the data
+	< Astrosoc Duties>
 		ObsIn Meeting 1
 		Telescope Assembly Guide
 		Stargazing Basics Guide
 		Telescope Assembly Poster
-	Pathways
+	< Pathways >
 		KKM Survey
-	Tambay Tracker
-	Niki Data
-	Exams
+	< Tambay Tracker >
+		JL Dev Requests
+		Refactor the old one 
+		Data Collections
+	< Niki Data >
+		T-testing
+		Anova
+		Significance testing
+
+	< Curriculum Vitae >
+		Make it 
+		Apply to:
+			Grosvenor
+			Flores
+			Lim 
+			Vega 
+		Webdev Job SB Ninoy
+	< Googe forms >
+	< Calendar Organization >
+		The sheets
+	< Exams >
 		March 7 - KAS
 		March 18 - P157
+	< Birthday Portraits >
+		JL
+		Tsen 
+		Kyle 
+	< Incompletes >
+		LMAO
+	< DOST pass tcg >
+		LMAO
+	< Drawings >
+		Iyumi Landscape
+		Navi Blue (Navy Blue)
+		Monica
+		Two pairs of feet, two pairs of shadows
+		First glance, last glance
+		Train Scene
+	< KOS Coding >
+		Cheers Kevin
+		Custom Wait
+		Execute Maneuver
+	< Personnal Coding >
+		The box language I made when I was 18 and stupid
+
+
+
+		
+MISCELLANEOUS
+	Physics  141 Exam
+	Calendar Organization
+	JL Dev Request
+	Pathways Stuff 
+	CV - Apply to labs now
+		Labs Apply
+		Job Apply
+	Forms (All of them)
+	Nykky Stats
+	Calendar Organization
+		ObsIn Stuff
+		Org Stuff
+		Pathways Stuff
+		Academics
+		Personal Shit
+
+
+	File Management
+	Frat Writings
+	Frat Software Revamp
+	Tambay Reports
+	ObsIn Files / To Follow
+	Mob Chart
+	Portraits
+	Frat Writings
+	INC Lackings
+	Probset 2 P151
+	ObsIn Meeting Minutes
+	JL Dev Request
+	Portraits
+
 	
+
+	
+		
+	d6SN4Asy
+
+	Code :
+		Simple Control
+
+			
+		
