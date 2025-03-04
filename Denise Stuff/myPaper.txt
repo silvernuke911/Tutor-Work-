@@ -30,3 +30,125 @@ Results and Discussion
 
     The results indicate that the percent error $ \epsilon $ remains relatively low for smaller values of $ S $ but exhibits an increasing trend as $ S $ grows larger. This trend suggests that as $ S $ increases, the experimental decay process deviates more significantly from the theoretical model, but it effectively models it at low $S$ values. Potential contributing factors include increased statistical fluctuations due to the lower probability of decay per iteration, as well as the cumulative effects of experimental noise. Additionally, for larger $ S $, the probability of decay $ p_\text{exp} $ tends to differ more substantially from the theoretical expectation $ p_0 $, reinforcing the notion that the stochastic nature of the process introduces greater variability on decay probabilities. However the consistently high $ R^2 $ values, indicate that the best-fit function effectively models the observed data despite these deviations.
 
+    \documentclass{article}
+\usepackage{amsmath}
+
+    \begin{document}
+
+    \section*{II. Problem-Solving}
+
+    \textbf{Directions:} Solve the following problems using Boyle’s Law equation. Write your answer in a \textbf{GRESA} form.
+
+    \begin{enumerate}
+        \item A 450 mL of ideal gas has been heated from $ 25^\circ C $ to $ 185^\circ C $ at constant pressure. What is the final volume?
+        
+        \item A tank (not rigid) contains 2.3 L of helium gas at $ 25^\circ C $. What will be the volume of the tank after heating it and its content to $ 40^\circ C $ at constant pressure?
+        
+        \item Each party balloon was inflated to 3 dm$^3$ in the store at constant pressure and room temperature of $ 25^\circ C $. When the balloons were brought to the party, the temperature rose to $ 31^\circ C $. Assuming that there was no change in the pressure, did the balloons expand or contract? By how much?
+    \end{enumerate}
+
+    \vspace{0.5cm}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{G (given)} & \textbf{R (required)} & \textbf{E (equation)} & \textbf{S (solution)} & \textbf{A (answer)} \\
+        \hline
+        & & & & \\
+        \hline
+    \end{tabular}
+
+    \end{document}
+
+
+\subsection*{Problem 1}
+\textbf{Given:}  
+\begin{align*}
+V_1 &= 450 \text{ mL} \\
+T_1 &= 25^\circ C = 25 + 273.15 = 298.15 \text{ K} \\
+T_2 &= 185^\circ C = 185 + 273.15 = 458.15 \text{ K}
+\end{align*}
+
+\textbf{Required:}  
+Final volume $ V_2 $
+
+\textbf{Equation:}  
+Since pressure is constant, we use Charles' Law:
+\[
+\frac{V_1}{T_1} = \frac{V_2}{T_2}
+\]
+
+\textbf{Solution:}  
+Solving for $ V_2 $:
+\[
+V_2 = V_1 \times \frac{T_2}{T_1}
+\]
+\[
+V_2 = 450 \times \frac{458.15}{298.15}
+\]
+\[
+V_2 \approx 692.0 \text{ mL}
+\]
+
+\textbf{Answer:}  
+The final volume is $ 692.0 $ mL.
+
+\subsection*{Problem 2}
+\textbf{Given:}  
+\begin{align*}
+V_1 &= 2.3 \text{ L} \\
+T_1 &= 25^\circ C = 298.15 \text{ K} \\
+T_2 &= 40^\circ C = 313.15 \text{ K}
+\end{align*}
+
+\textbf{Required:}  
+Final volume $ V_2 $
+
+\textbf{Equation:}  
+\[
+\frac{V_1}{T_1} = \frac{V_2}{T_2}
+\]
+
+\textbf{Solution:}  
+\[
+V_2 = V_1 \times \frac{T_2}{T_1}
+\]
+\[
+V_2 = 2.3 \times \frac{313.15}{298.15}
+\]
+\[
+V_2 \approx 2.42 \text{ L}
+\]
+
+\textbf{Answer:}  
+The final volume is $ 2.42 $ L.
+
+\subsection*{Problem 3}
+\textbf{Given:}  
+\begin{align*}
+V_1 &= 3 \text{ dm}^3 \\
+T_1 &= 25^\circ C = 298.15 \text{ K} \\
+T_2 &= 31^\circ C = 304.15 \text{ K}
+\end{align*}
+
+\textbf{Required:}  
+Final volume $ V_2 $ and whether the balloon expands or contracts.
+
+\textbf{Equation:}  
+\[
+\frac{V_1}{T_1} = \frac{V_2}{T_2}
+\]
+
+\textbf{Solution:}  
+\[
+V_2 = V_1 \times \frac{T_2}{T_1}
+\]
+\[
+V_2 = 3 \times \frac{304.15}{298.15}
+\]
+\[
+V_2 \approx 3.06 \text{ dm}^3
+\]
+
+\textbf{Answer:}  
+The balloons expanded by $ 0.06 $ dm$^3$.
+
+\end{document}

@@ -66,23 +66,26 @@ So for today, the tasks are
 		- Results and Discussion
 		- Methodology Revise
 		- Methodology Figure
-		Not my work:
-			Introduction 
-			Conclusion
-			Abstract
-	< Denise Paper > 
-		Revise the entire yellow texts
-		Research Poster	
-		Wait for the data
+		- Not my work:
+		-	Introduction 
+		-	Conclusion
+		-	Abstract
+	- < Denise Paper > 
+		- Revise the entire yellow texts
+		- Research Poster	
+		- Wait for the data
 	< Astrosoc Duties>
 		ObsIn Meeting 1
 		ObsIn Budget Proposal
 		Telescope Assembly Guide
 		Stargazing Basics Guide
 		Telescope Assembly Poster
+	< Denise poster >
+		Today
 	< Pathways >
 		KKM Survey
 	< Tambay Tracker >
+		OS Implementation
 		JL Dev Requests
 		Refactor the old one 
 		Data Collections
