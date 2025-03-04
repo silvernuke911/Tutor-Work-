@@ -117,8 +117,8 @@ So for today, the tasks are
 	< Personnal Coding >
 		The box language I made when I was 18 and stupid
 
-	< My phone charger was taken, again >
-		Shane probably took it.
+	- < My phone charger was taken, again >
+	- 	Shane probably took it.
 
 
 MISCELLANEOUS
