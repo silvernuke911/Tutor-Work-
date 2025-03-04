@@ -31,9 +31,9 @@ DEADLINE:
 
 PRICES
 	1650 - pelleting machine
-	20 - 1 kilo
-	10 - 4 kilos
-	50 - 1 kilo
+	20 - 1 kilo malunggay
+	10 - 4 kilos coconut
+	50 - 1 kilo cornstarch
 
 PROCEDURE
 	Collection
@@ -46,6 +46,16 @@ PROCEDURE
 		initially microwaved for 2 minutes to remove bulk mosture
 		Left overnight to completely dry
 
+		Nutritional Testing
+		Due to the extended processing time at the designated testing center, the nutritional analysis results will not be available within the deadline required for this study. Consequently, a comprehensive evaluation of the nutritional composition of the Moricoco pellets cannot be conducted within the study’s scope. The absence of these analytical results precludes any quantitative assessment of macronutrient and micronutrient content, thereby limiting the ability to draw meaningful conclusions regarding the nutritional viability of the formulated feed. As such, no meaningful nutritional analysis can be made since the data is still for release
+		
+		Price Comparison
+		The price for both the commercial feed purchased to serve as controls  were both Php. 40.00 per Kilogram, thus an average of Php 40 for commercial feeds at least for the feeds available from the region  where the feeds are purchased. For the Moricoco pellet materials, the essential ingredients had the following prices: Php. 20 for 1 kilogram of Malunggay, Php. 10 for 4 kilograms of coconut pulp, and Php 15 for 250 grams of cornstarch, which is used as the aggregate. Thus, the average net price for the production of 1 kilogram of Moricoco pellets is:  Php 8.57
+		Price per kilo=(∑▒〖(Material prices)〗)/(∑(Material weight))
+		This is calculated by adding the total price of the obtained materials and dividing it by the total weight. However, excluded in this calculation is the cost of the manual pelleting machine, but since we are concerned solely with the pellet production, this is deemed to be acceptable. 
+		Figure 1. Visual representation of the price difference in the purchase of commercial feed pellets compared to the price of Moricoco pellet manufacture
+		Figure 1 compares the cost of purchasing commercial feed with the production cost of Moricoco pellets using locally available materials. Preliminary analysis shows that Moricoco pellets are significantly cheaper, with a production cost 78% lower than commercial alternatives. This substantial cost difference suggests potential economic benefits for poultry farmers seeking affordable feed options. However, due to the limited sample size, statistical tests such as t-tests cannot be effectively conducted to determine significant differences with high confidence. Despite this limitation, the observed cost reduction highlights the feasibility of Moricoco pellet production as a low-cost alternative to commercial feeds, warranting further investigation into its nutritional efficacy and scalability.
+		
 
 3/3 - Time to work on more shit.
 
@@ -56,23 +66,26 @@ So for today, the tasks are
 		- Results and Discussion
 		- Methodology Revise
 		- Methodology Figure
-		Not my work:
-			Introduction 
-			Conclusion
-			Abstract
-	< Denise Paper > 
-		Revise the entire yellow texts
-		Research Poster	
-		Wait for the data
+		- Not my work:
+		-	Introduction 
+		-	Conclusion
+		-	Abstract
+	- < Denise Paper > 
+		- Revise the entire yellow texts
+		- Research Poster	
+		- Wait for the data
 	< Astrosoc Duties>
 		ObsIn Meeting 1
 		ObsIn Budget Proposal
 		Telescope Assembly Guide
 		Stargazing Basics Guide
 		Telescope Assembly Poster
+	< Denise poster >
+		Today
 	< Pathways >
 		KKM Survey
 	< Tambay Tracker >
+		OS Implementation
 		JL Dev Requests
 		Refactor the old one 
 		Data Collections
