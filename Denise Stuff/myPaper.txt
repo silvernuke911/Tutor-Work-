@@ -1,0 +1,154 @@
+Methodology 
+    To simulate radioactive decay, the researchers used dice with sides $S =$ 4,6, and 12. There are a total of 100 dice for each $S$. Each set of 100 dice were then thrown to a flat board. Suppose that $t$ represents the number of times the dice was rolled, and $t$ increments by 1 for every roll. This is analogous for the time it takes for atoms to decay. Each face has a probability of $1/S$ to appear, and as such, to simplify the process, the highest number i.e., 6 for $S=6$ is considered "decayed".The dice that were decayed were then removed, and the number of undecayed dice $N$ were rolled again, and once again the decayed dice are removed. This process is repeated until there are no more dice left ($N=0$). The process is then repeated 5 times for each $S$ to ensure minimal statistical fluctuations. 
+
+    In theory, the probablity of each dice to be removed is $1/S$, which means that for each dice, using equation \ref{}, we can calculate a theoretical half-life for each $S$. We then plot a best fit function from the observed experimental data, wherein the experimental half-life can be determined. These can then be statistically compared to determine whether radioactive decay can be effectively modelled by dice rolls.
+
+
+
+
+    To simulate the stochastic nature of radioactive decay, the researchers used polyhedral dice with $ S = 4, 6, 10 $ and $ 12 $ sides. For each value of $ S $, a set of 100 dice was used. The experiment proceeds iteratively, with each discrete time step $ t $ corresponding to a single roll of the dice, with the number of dice $N = 100$ at $t=0$ . This mapping of $ t $ to roll count serves as an analog to the passage of time in a radioactive decay process.
+
+    In theory, each die face has an equal probability of $ 1/S $ of appearing upon a roll. To model decay events, the highest face value (e.g., 6 for $ S = 6 $) is designated as the decay criterion. After each roll, dice that land on the designated decay value are considered \textit{decayed} and removed from the system. The remaining $ N $ non-decayed dice are then rolled again, with this process iterating until all dice have been removed ($ N = 0 $). To account for statistical fluctuations, the entire experiment is repeated five times for each value of $ S $.
+
+    Each die has an independent probability of decay per roll given by $ 1/S $. Using equation \ref{}, the expected half-life for each $ S $ can be analytically derived. The experimentally observed decay curves are then best-fitted to an appropriate decay function, allowing for experimental determination of the half-life. A statistical comparison between theoretical and experimental results assesses the extent to which the random decay process of atomic nuclei can be effectively modeled via this discrete stochastic system.
+
+Results and Discussion
+
+    Figure \ref{fig: decay_profile_total} presents the decay profile for each die with face count $ S $ over 60 iterations. The plotted data represent the mean of number of remaining dice $ N $ at each time step $ t $, with error bars corresponding to twice the standard error, providing a 95\% confidence interval. Superimposed on each graph is the theoretical decay profile (solid black line), while a gray dashed line represents the best-fit function for the experimentally observed decay profile. Due to the close agreement between the experimental data and the theoretical model, combined with the density of data points and their associated error bars, the theoretical prediction and best fit lines are challenging to discern, particularly in Figures \ref{subfig: decay_profile4} and \ref{subfig: decay_profile6}. However, at this scale, Figure \ref{subfig: decay_profile10} visibly illustrates that the theoretical prediction systematically overestimates the experimental data, whereas in Figure \ref{subfig: decay_profile12}, the theoretical model underestimates the observed results.
+
+    This discrepancy is further emphasized in Figure \ref{fig:decaylog}, which presents the same data with a logarithmic scale applied to the $ y $-axis (remaining dice $ N $). Under this transformation, the theoretical decay profile assumes a linear form, as does the experimental best fit line. However, due to the inherent stochasticity of the experiment, deviations from strict linearity occur with the actual data, particularly at larger $ t $ values, where statistical noise becomes more pronounced. Despite these fluctuations, the best-fit function remains approximately linear, highlighting the differences between theoretical and experimental results more clearly. Specifically, the agreement between theoretical and experimental data is strong for $ S = 4, 6 $, whereas the deviation for $ S = 12 $ is more pronounced, indicating significant discrepancies at higher values of $ S $.
+
+
+    Figure \ref{fig: decay_profile_total} shows the decay profile for each die with face $S$ over 60 iterations. What is plotted is the mean value of the iteration for each $t$, with an error bar of 2 standard errors for a 95\% confidence interval. Overlaid on top of each graph (indicated by the solid black line) is the theoretical decay profile, while a gray dashed line shows the best fit function for the experimental decay profile. Due to the closeness of the experimental data to the theoretical prediction, and the density of the points and their error bars, it is rather difficult to discern such markers, particularly for figure \ref{subfig: decay_profile4} and figure \ref{subfig: decay_profile6}. However, at this scale, it can be visibly perceived at figure \ref{subfig: decay_profile10} that the theoretical prediction overshoots the experimental data, while, similarly, at \ref{subfig: decay_profile12}, the theoretical prediction undershoots the experimental data.
+
+    This is more accentuated at figure \ref{fig:decaylog}, which represents the same data but with the logatrithm of the $y$-axis ($N$ scale) presented instead. Here, the theoretical prediction can be represented as a straight line, and so is the data. Due to the stochastic nature of the experiment, the data does not strictly follow a straight line, particularly at larger $t$ values due to the average remaining constant. However, the best fit line can be represented as a straight line, and here, the difference between the theoretical and experimental results is more accentuated.  Specifically, we can see how close the results are for $S=4, 6$, and how the deviation for $S=12$ is quite significant.   
+
+
+    Table \ref{tab:decay_results} shows the theoretical $\tau_0$ and experimental half-lives $\tau_\text{exp}$ calculated for each $S$. $p_0$ is the expected probability that a random dice, or particle, will decay, and $p_\text{exp}$ is the empirically derived probability. The experimental values were calculated from the resulting best-fit function. From these, using equation \ref{eq: halflife calc}, the half life can be calculated. The percent error $\epsilon$ refers to the error between the expected and experimental half-life. This shows a relatively low error value for low $S$, but increases as $S$ becomes larger. 
+
+    Table \ref{tab:decay_results} presents a comparative analysis of the theoretical and experimentally determined half-lives ($ \tau_0 $ and $ \tau_\text{exp} $, respectively) for each die configuration $ S $. Here, $ p_0 $ represents the expected probability of decay per iteration for a single die (analogous to a single radioactive particle), while $ p_\text{exp} $ is the corresponding empirically derived probability. The experimental values via the best fit function, from which the half-life was computed using Equation \ref{eq: halflife calc}. The relative deviation between theoretical and experimental half-lives is quantified by the percent error $ \epsilon $, while the coefficient of determination $ R^2 $ indicates the goodness of fit for the experimental data (It is arguable whether this is useful in this context, but we decided to add it for completeness).
+
+    The results indicate that the percent error $ \epsilon $ remains relatively low for smaller values of $ S $ but exhibits an increasing trend as $ S $ grows larger. This trend suggests that as $ S $ increases, the experimental decay process deviates more significantly from the theoretical model, but it effectively models it at low $S$ values. Potential contributing factors include increased statistical fluctuations due to the lower probability of decay per iteration, as well as the cumulative effects of experimental noise. Additionally, for larger $ S $, the probability of decay $ p_\text{exp} $ tends to differ more substantially from the theoretical expectation $ p_0 $, reinforcing the notion that the stochastic nature of the process introduces greater variability on decay probabilities. However the consistently high $ R^2 $ values, indicate that the best-fit function effectively models the observed data despite these deviations.
+
+    \documentclass{article}
+\usepackage{amsmath}
+
+    \begin{document}
+
+    \section*{II. Problem-Solving}
+
+    \textbf{Directions:} Solve the following problems using Boyle’s Law equation. Write your answer in a \textbf{GRESA} form.
+
+    \begin{enumerate}
+        \item A 450 mL of ideal gas has been heated from $ 25^\circ C $ to $ 185^\circ C $ at constant pressure. What is the final volume?
+        
+        \item A tank (not rigid) contains 2.3 L of helium gas at $ 25^\circ C $. What will be the volume of the tank after heating it and its content to $ 40^\circ C $ at constant pressure?
+        
+        \item Each party balloon was inflated to 3 dm$^3$ in the store at constant pressure and room temperature of $ 25^\circ C $. When the balloons were brought to the party, the temperature rose to $ 31^\circ C $. Assuming that there was no change in the pressure, did the balloons expand or contract? By how much?
+    \end{enumerate}
+
+    \vspace{0.5cm}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{G (given)} & \textbf{R (required)} & \textbf{E (equation)} & \textbf{S (solution)} & \textbf{A (answer)} \\
+        \hline
+        & & & & \\
+        \hline
+    \end{tabular}
+
+    \end{document}
+
+
+\subsection*{Problem 1}
+\textbf{Given:}  
+\begin{align*}
+V_1 &= 450 \text{ mL} \\
+T_1 &= 25^\circ C = 25 + 273.15 = 298.15 \text{ K} \\
+T_2 &= 185^\circ C = 185 + 273.15 = 458.15 \text{ K}
+\end{align*}
+
+\textbf{Required:}  
+Final volume $ V_2 $
+
+\textbf{Equation:}  
+Since pressure is constant, we use Charles' Law:
+\[
+\frac{V_1}{T_1} = \frac{V_2}{T_2}
+\]
+
+\textbf{Solution:}  
+Solving for $ V_2 $:
+\[
+V_2 = V_1 \times \frac{T_2}{T_1}
+\]
+\[
+V_2 = 450 \times \frac{458.15}{298.15}
+\]
+\[
+V_2 \approx 692.0 \text{ mL}
+\]
+
+\textbf{Answer:}  
+The final volume is $ 692.0 $ mL.
+
+\subsection*{Problem 2}
+\textbf{Given:}  
+\begin{align*}
+V_1 &= 2.3 \text{ L} \\
+T_1 &= 25^\circ C = 298.15 \text{ K} \\
+T_2 &= 40^\circ C = 313.15 \text{ K}
+\end{align*}
+
+\textbf{Required:}  
+Final volume $ V_2 $
+
+\textbf{Equation:}  
+\[
+\frac{V_1}{T_1} = \frac{V_2}{T_2}
+\]
+
+\textbf{Solution:}  
+\[
+V_2 = V_1 \times \frac{T_2}{T_1}
+\]
+\[
+V_2 = 2.3 \times \frac{313.15}{298.15}
+\]
+\[
+V_2 \approx 2.42 \text{ L}
+\]
+
+\textbf{Answer:}  
+The final volume is $ 2.42 $ L.
+
+\subsection*{Problem 3}
+\textbf{Given:}  
+\begin{align*}
+V_1 &= 3 \text{ dm}^3 \\
+T_1 &= 25^\circ C = 298.15 \text{ K} \\
+T_2 &= 31^\circ C = 304.15 \text{ K}
+\end{align*}
+
+\textbf{Required:}  
+Final volume $ V_2 $ and whether the balloon expands or contracts.
+
+\textbf{Equation:}  
+\[
+\frac{V_1}{T_1} = \frac{V_2}{T_2}
+\]
+
+\textbf{Solution:}  
+\[
+V_2 = V_1 \times \frac{T_2}{T_1}
+\]
+\[
+V_2 = 3 \times \frac{304.15}{298.15}
+\]
+\[
+V_2 \approx 3.06 \text{ dm}^3
+\]
+
+\textbf{Answer:}  
+The balloons expanded by $ 0.06 $ dm$^3$.
+
+\end{document}
