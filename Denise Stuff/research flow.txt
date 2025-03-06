@@ -74,18 +74,22 @@ So for today, the tasks are
 		- Revise the entire yellow texts
 		- Research Poster	
 		- Wait for the data
+	
+	- < Denise poster >
+		- Today
+	< KAS study >
+		Download files 
+		Read them over
+	< Pathways >
+		KKM Survey
 	< Astrosoc Duties>
 		ObsIn Meeting 1
 		ObsIn Budget Proposal
 		Telescope Assembly Guide
 		Stargazing Basics Guide
 		Telescope Assembly Poster
-	< Denise poster >
-		Today
-	< Pathways >
-		KKM Survey
 	< Tambay Tracker >
-		OS Implementation
+		- OS Implementation
 		JL Dev Requests
 		Refactor the old one 
 		Data Collections
@@ -93,7 +97,12 @@ So for today, the tasks are
 		T-testing
 		Anova
 		Significance testing
-
+	< Physics 191 Paper>
+		Introduction
+		Metholodogy
+		RnD 
+		Conclusion 
+		Abstract
 	< Curriculum Vitae >
 		Make it 
 		Apply to:
@@ -113,7 +122,7 @@ So for today, the tasks are
 		Tsen 
 		Kyle 
 	< Incompletes >
-		LMAO
+		LMAO.
 	< DOST pass tcg >
 		LMAO
 	< Drawings >
