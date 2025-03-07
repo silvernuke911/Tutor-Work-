@@ -60,36 +60,37 @@ PROCEDURE
 3/3 - Time to work on more shit.
 
 So for today, the tasks are
-	- AstroCalendar
-	- Willans formula 
-	< My paper >
-		- Results and Discussion
-		- Methodology Revise
-		- Methodology Figure
-		- Not my work:
-		-	Introduction 
-		-	Conclusion
-		-	Abstract
-	- < Denise Paper > 
-		- Revise the entire yellow texts
-		- Research Poster	
-		- Wait for the data
-	
-	- < Denise poster >
-		- Today
-	< KAS study >
-		Download files 
-		Read them over
+-	AstroCalendar
+-	Willans formula 
+-	< My paper >
+-		Results and Discussion
+-		Methodology Revise
+-		Methodology Figure
+-		Not my work:
+-			Introduction 
+-			Conclusion
+-			Abstract
+-	< Denise Paper > 
+-		Revise the entire yellow texts
+-		Research Poster	
+-		Wait for the data	
+-	< Denise poster >
+-			Today
+-	< KAS study >
+-		Download files 
+-		Read them over
 	< Pathways >
-		KKM Survey
+-		KKM Survey
+		Other stuff, organize later
 	< Astrosoc Duties>
+		ObsIn updates
 		ObsIn Meeting 1
 		ObsIn Budget Proposal
 		Telescope Assembly Guide
 		Stargazing Basics Guide
 		Telescope Assembly Poster
 	< Tambay Tracker >
-		- OS Implementation
+-		OS Implementation
 		JL Dev Requests
 		Refactor the old one 
 		Data Collections
@@ -114,12 +115,14 @@ So for today, the tasks are
 	< Googe forms >
 	< Calendar Organization >
 		The sheets
+	< File Management >
 	< Exams >
 		March 7 - KAS
 		March 18 - P157
 	< Birthday Portraits >
 		JL
 		Tsen 
+		Akio
 		Kyle 
 	< Incompletes >
 		LMAO.
@@ -138,9 +141,6 @@ So for today, the tasks are
 		Execute Maneuver
 	< Personnal Coding >
 		The box language I made when I was 18 and stupid
-
-	- < My phone charger was taken, again >
-	- 	Shane probably took it.
 
 
 MISCELLANEOUS
